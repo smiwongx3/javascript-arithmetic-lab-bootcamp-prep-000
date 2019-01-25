@@ -16,8 +16,8 @@ function inc(n)  {
 function dec(n)  {
   return (n-=1)
 }
-function makeInt(n, base)  {
-  {{return parseInt(n)}  if (base=10)}
+function makeInt(n, "10")  {
+  return parseInt(n)
 }
 function preserveDecimal(n)  {
   return parseFloat(n)
