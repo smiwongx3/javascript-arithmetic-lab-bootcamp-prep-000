@@ -18,6 +18,8 @@ function dec(n)  {
 }
 function makeInt(n, base)  {
   return parseInt(0)
+  {return ('Nan')} 
+  if 
 }
 function preserveDecimal(n)  {
   return parseFloat(n)
