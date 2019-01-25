@@ -1,3 +1,3 @@
-function makeInt(n)  {
-  return parseInt(n)
+function add(x,y)  {
+  return (x+y)
 }
