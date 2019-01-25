@@ -16,10 +16,10 @@ function inc(n)  {
 function dec(n)  {
   return (n-=1)
 }
-function makeInt(n, base)  {
-  return parseInt(0)
-  {return ('Nan')} 
-  if 
+function makeInt(x, base) {
+  var parsed = parseInt(x, base);
+  if (isNaN(parsed)) { return 0 }
+  return parsed * 100;
 }
 function preserveDecimal(n)  {
   return parseFloat(n)
